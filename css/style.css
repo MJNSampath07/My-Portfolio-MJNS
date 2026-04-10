@@ -608,6 +608,62 @@ footer {
     color: var(--neutral-color);
 }
 
+.stat-card--experience .stat-number {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+.experience-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.experience-logo {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 0.45rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.experience-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    align-items: center;
+    text-align: center;
+}
+
+.experience-role {
+    font-family: var(--font-heading);
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+}
+
+.experience-org {
+    font-family: var(--font-special);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--neutral-color);
+    margin: 0;
+}
+
+.experience-dates {
+    font-family: var(--font-special);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    margin: 0.25rem 0 0;
+}
+
 /* Add hover effect for skill items */
 .skill-category li:hover {
     color: var(--accent-color);
